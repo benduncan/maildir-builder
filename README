@@ -1,0 +1,10 @@
+Perl script to create a test maildir directory with random messages and flags. Useful for testing large mailboxes for performance and debugging.
+
+perl maildir-builder.pl --maildir [/path/to/source/maildir] --output [/path/to/dest/maildir] --help --debug
+
+Options:
+--createdirs [count]		Number of Test directories to create\n";
+--randomflag				Create random flags, unseen, read, replied, flag\n";
+--count [count]				Number of messages to randomly copy into the --output directory, default 100.\n\n";
+
+maildir-builder.pl requires a valid source maildir, and a destination directory will be created
